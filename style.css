@@ -1,0 +1,117 @@
+
+
+html, body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+}
+
+a{
+    text-decoration: none;
+}
+
+#parentBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    width: 350px;
+    min-height: 530px;
+    padding: 20px;
+}
+
+.infoPerson{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoPerson h2, p{
+    margin: 5px;
+}
+
+.infoPerson p{
+    color: hsl(75, 94%, 57%);
+}
+
+
+.infoPerson img{
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+
+#bio{
+    margin: 20px;
+    text-align: center;
+}
+
+#parentButtonBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.button{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+@media all and (max-width:500px){
+
+    #parentBox{
+        width: 300px;
+    }
+}
+
+@media all and (max-width:360px){
+
+    #parentBox{
+        width: 250px;
+    }
+}
+
+@media all and (max-height:700px){
+    #parentBox{
+        width: 280px;
+    }
+
+    .button{
+        margin-bottom: 5px;
+    }
+
+    #bio{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .infoPerson img{
+        margin-bottom: 15px;
+    }
+}
+
