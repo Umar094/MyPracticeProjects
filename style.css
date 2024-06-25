@@ -13,6 +13,10 @@ html, body{
     color: hsl(0, 0%, 100%);
 }
 
+p{
+    font-size: 14px;
+}
+
 a{
     text-decoration: none;
 }
@@ -67,9 +71,6 @@ a{
 .button{
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: small;
     border-style: none;
     border-radius: 8px;
     text-align: center;
